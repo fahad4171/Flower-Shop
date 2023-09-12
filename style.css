@@ -20,9 +20,9 @@ body {
 
 h3 {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .para-description{
@@ -33,8 +33,12 @@ font-weight: 800;
     text-align: center;
 }
 
-.feature, .service {
+.feature, .service, .instagram, .latest-deal {
     margin: 150px 100px 0px 100px;
+}
+
+span {
+    color: #E55473;
 }
 
 
@@ -118,3 +122,56 @@ figcaption {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* -----HOT DEAL SECTION---- */
+
+.hot-deal {
+    display: flex;
+    gap: 215px;
+    margin-top: 150px;
+    padding: 100px 300px;
+    align-items: center;
+}
+.deal-info {
+    text-align: center;
+}
+
+/* ----INSTAGRAM SECTION----- */
+
+.insta-gallery {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.insta-gallery img {
+    width: 270px;
+}
+
+/* -------LATEST DEAL SECTION------ */
+.latest-deal {
+    background-image: url(images/Rectangle\ 9.png);
+    text-align: center;
+    padding: 80px
+}
+.latest-deal input[type="email"] {
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 50px;
+}
+
+.latest-deal input[placeholder] {
+    color: rgba(20, 18, 18, 0.6);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/*---- Footer section------ */
+footer {
+    background: black;
+    padding: 80px;
+    color: grey;
+}
+
