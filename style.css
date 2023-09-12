@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    /* fonts */
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* ----SHARED ELEMENTS ----*/
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* -----BANNERS----------- */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px 0px 150px;
+    gap: 80px;   
+}
+.banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 900;
+     
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 32px 0px;
+}
+
+.banner img {
+    width: 480px;
+    
+}
