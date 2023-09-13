@@ -26,7 +26,7 @@ h3 {
 }
 
 .para-description{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(39, 39, 39, 0.609);
     font-size: 18px;
     font-weight: 400;
     margin: 32px 0px;
@@ -147,6 +147,36 @@ figcaption {
     width: 270px;
 }
 
+/* -----BONUS SECTION------ */
+.bonus {
+    display:flex;
+    margin-top: 150px;
+}
+.bonus a {
+    text-decoration: none;
+    color: #524c4d;
+}
+.bonus img {
+    width: 700px;
+}
+.bonus-info {
+    text-align: center;
+    background: #d2aeb6;
+    padding: 30px 50px 30px 50px;
+    
+}
+
+.btn-bonus {
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: 0;
+    background: white;
+    font-size: 15pcx;
+    font-weight: 700;
+    
+}
+
+
 /* -------LATEST DEAL SECTION------ */
 .latest-deal {
     background-image: url(images/Rectangle\ 9.png);
@@ -170,8 +200,16 @@ figcaption {
 
 /*---- Footer section------ */
 footer {
+    margin-top: 150px;
     background: black;
     padding: 80px;
-    color: grey;
+    color: rgb(234, 228, 228);
+    text-align: center;
+}
+h2 {
+
+    font-size: 48px;
+    font-weight: 800;
+    
 }
 
